@@ -1,5 +1,8 @@
 # Complied file
-.class
+*.class
+
+# Log file
+*.log
 
 # Binary Folder
-/bin
+bin/
