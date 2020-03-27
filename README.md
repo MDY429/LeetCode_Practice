@@ -1,12 +1,12 @@
 # LeetCode_Practice
   
-  Here is my leetcode praceice.  
+  Here is my LeetCode practice.  
   
   Easy:  
   1. 001 Two Sum  
-  2. 014 Longest Commom Prefix  
+  2. 014 Longest Common Prefix  
     
   Medium:
-    
+  1. 015 3Sum  
     
   Hard:  
