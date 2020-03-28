@@ -20,7 +20,7 @@ public class E14_Longest_Common_Prefix {
 
     public String longestCommonPrefix(String[] strs) {
 
-        if(strs.length < 1){
+        if(strs == null || strs.length < 1){
             return "";
         }
 
