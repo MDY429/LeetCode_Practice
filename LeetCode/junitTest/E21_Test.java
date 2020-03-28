@@ -56,8 +56,6 @@ public class E21_Test {
 
         ListNode actual = e21.mergeTwoLists(l1, l2);
 
-        e21.printNode(expected);
-        e21.printNode(actual);
         assertEquals(expected, actual);
     }
 
@@ -90,6 +88,67 @@ public class E21_Test {
         expected = update(expected, expArr);
 
         ListNode actual = e21.mergeTwoLists(l4, nullNode);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void E21_test5() {
+        ListNode expected = null;
+        ListNode actual = e21.mergeTwoLists(nullNode, nullNode);
+
+        assertEquals(expected, actual);
+    }
+
+    // Test Recursion
+    @Test
+    public void E21_recursion_test1() {
+        int[] expArr = new int[] { 1, 1, 2, 2, 3, 3, 4, 5, 6 };
+        ListNode expected = null;
+        expected = update(expected, expArr);
+
+        ListNode actual = e21.mergeRecursion(l1, l2);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void E21_recursion_test2() {
+        int[] expArr = new int[] { 0, 1, 1, 2, 3, 4, 5, 6, 100 };
+        ListNode expected = null;
+        expected = update(expected, expArr);
+
+        ListNode actual = e21.mergeRecursion(l3, l1);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void E21_recursion_test3() {
+        int[] expArr = new int[] { -99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 100, 100 };
+        ListNode expected = null;
+        expected = update(expected, expArr);
+
+        ListNode actual = e21.mergeRecursion(l3, l4);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void E21_recursion_test4() {
+        int[] expArr = new int[] { -99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100 };
+        ListNode expected = null;
+        expected = update(expected, expArr);
+
+        ListNode actual = e21.mergeRecursion(l4, nullNode);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void E21_recursion_test5() {
+        ListNode expected = null;
+        ListNode actual = e21.mergeRecursion(nullNode, nullNode);
 
         assertEquals(expected, actual);
     }

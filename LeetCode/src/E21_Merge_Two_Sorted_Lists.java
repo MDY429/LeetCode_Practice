@@ -12,6 +12,7 @@ public class E21_Merge_Two_Sorted_Lists {
 
     /**
      * Merger two list node.
+     * 
      * @param l1 The first input of ListNode.
      * @param l2 The second input of ListNode
      * @return The ListNode.
@@ -64,14 +65,40 @@ public class E21_Merge_Two_Sorted_Lists {
     }
 
     /**
+     * Use recursion to merger two ListNode.
+     * 
+     * @param l1 The first input of ListNode.
+     * @param l2 The second input of ListNode
+     * @return The ListNode.
+     */
+    public ListNode mergeRecursion(ListNode l1, ListNode l2) {
+        ListNode head = null;
+
+        if (l1 == null) {
+            return l2;
+        } else if (l2 == null) {
+            return l1;
+        } else if (l1.val <= l2.val) {
+            head = l1;
+            head.next = mergeRecursion(l1.next, l2);
+        } else {
+            head = l2;
+            head.next = mergeRecursion(l1, l2.next);
+        }
+
+        return head;
+    }
+
+    /**
      * Just for testing print the node.
+     * 
      * @param l The input of ListNode.
      */
     public void printNode(ListNode l) {
         ListNode a = l;
-        while(a!=null){
-            
-            if(a.next == null)
+        while (a != null) {
+
+            if (a.next == null)
                 System.out.print(a.val + "\n");
             else
                 System.out.print(a.val + " -> ");
@@ -84,15 +111,14 @@ public class E21_Merge_Two_Sorted_Lists {
         ListNode l1 = new ListNode(10);
         l1.next = new ListNode(15);
 
-        // ListNode l2 = new ListNode(5);
-        // l2.next = new ListNode(10);
-        ListNode l2 = null;
+        ListNode l2 = new ListNode(5);
+        l2.next = new ListNode(10);
+        // ListNode l2 = null;
 
         E21_Merge_Two_Sorted_Lists a = new E21_Merge_Two_Sorted_Lists();
-        
-        ListNode ans = a.mergeTwoLists(l1, l2);
-        a.printNode(l1);
-        a.printNode(l2);
+
+        // ListNode ans = a.mergeTwoLists(l1, l2);
+        ListNode ans = a.mergeRecursion(l1, l2);
         a.printNode(ans);
 
     }
