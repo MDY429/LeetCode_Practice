@@ -8,6 +8,7 @@
   3. 021 Merge Two Sorted Lists  
   4. 026 Remove Duplicates from Sorted Array  
   5. 035 Search Insert Position  
+  6. 053 Maximum Subarray
     
   Medium:
   1. 015 3Sum  
