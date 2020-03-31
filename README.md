@@ -9,6 +9,7 @@
   4. 026 Remove Duplicates from Sorted Array  
   5. 035 Search Insert Position  
   6. 053 Maximum Subarray
+  7. 067 Add Binary
     
   Medium:
   1. 015 3Sum  
