@@ -6,3 +6,6 @@
 
 # Binary Folder
 bin/
+
+# VS Code Setting
+.vscode/
