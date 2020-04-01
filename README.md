@@ -8,8 +8,9 @@
   3. 021 Merge Two Sorted Lists  
   4. 026 Remove Duplicates from Sorted Array  
   5. 035 Search Insert Position  
-  6. 053 Maximum Subarray
-  7. 067 Add Binary
+  6. 053 Maximum Subarray  
+  7. 067 Add Binary  
+  8. 070 Climbing Stairs
     
   Medium:
   1. 015 3Sum  
