@@ -1,7 +1,7 @@
 /**
  * Definition for singly-linked list.
  * 
- * This is for E21.
+ * This is for E21, E83.
  */
 public class ListNode {
     int val;
@@ -17,23 +17,36 @@ public class ListNode {
     @Override
     public boolean equals(Object o) {
         ListNode list = (ListNode) o;
-        ListNode a =this;
+        ListNode a = this;
         while (a != null || list != null) {
-            if(a == null){
+            if (a == null) {
                 return false;
-            }
-            else if (list == null) {
+            } else if (list == null) {
                 return false;
-            }
-            else if(a.val != list.val){
+            } else if (a.val != list.val) {
                 return false;
-            }
-            else{
+            } else {
                 a = a.next;
                 list = list.next;
             }
         }
-        
+
         return true;
+    }
+
+    /**
+     * Just for testing print the node.
+     */
+    public void printNode() {
+        ListNode a = this;
+        while (a != null) {
+
+            if (a.next == null)
+                System.out.print(a.val + "\n");
+            else
+                System.out.print(a.val + " -> ");
+
+            a = a.next;
+        }
     }
 }
