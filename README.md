@@ -11,6 +11,7 @@
   6. 053 Maximum Subarray  
   7. 067 Add Binary  
   8. 070 Climbing Stairs
+  9. 083 Remove Duplicates from sorted List
     
   Medium:
   1. 015 3Sum  
