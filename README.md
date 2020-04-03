@@ -15,5 +15,6 @@
     
   Medium:
   1. 015 3Sum  
+  2. 089 Gray Code
     
   Hard:  
