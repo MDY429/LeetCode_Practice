@@ -49,4 +49,21 @@ public class ListNode {
             a = a.next;
         }
     }
+
+    /**
+     * Just for testing. Easy build a new linked list.
+     */
+    public static ListNode build(int[] val) {
+        ListNode root = new ListNode(val[0]);
+        ListNode ln = root;
+        for (int i = 1; i < val.length; i++) {
+            if (ln.next != null) {
+                ln = ln.next;
+            }
+            ln.next = new ListNode(val[i]);
+        }
+
+        return root;
+    }
+
 }
