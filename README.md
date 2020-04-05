@@ -12,6 +12,7 @@
   7. 067 Add Binary  
   8. 070 Climbing Stairs
   9. 083 Remove Duplicates from sorted List
+  10. 100 Same Tree
     
   Medium:
   1. 015 3Sum  
