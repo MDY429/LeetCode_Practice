@@ -13,6 +13,7 @@
   8. 070 Climbing Stairs
   9. 083 Remove Duplicates from sorted List
   10. 100 Same Tree
+  11. 101 Symmetric Tree
     
   Medium:
   1. 015 3Sum  
