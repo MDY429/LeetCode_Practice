@@ -14,6 +14,7 @@
   9. 083 Remove Duplicates from sorted List
   10. 100 Same Tree
   11. 101 Symmetric Tree
+  12. 136 Single Number
     
   Medium:
   1. 015 3Sum  
