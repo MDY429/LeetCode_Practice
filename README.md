@@ -20,5 +20,6 @@
   1. 015 3Sum  
   2. 089 Gray Code
   3. 092 Reverse Linked List II
+  4. 098 Validate Binary Search Tree
     
   Hard:  
