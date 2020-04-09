@@ -21,5 +21,6 @@
   2. 089 Gray Code
   3. 092 Reverse Linked List II
   4. 098 Validate Binary Search Tree
+  5. 094 Binary Tree Inorder Traversal
     
   Hard:  
