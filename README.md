@@ -15,6 +15,7 @@
   10. 100 Same Tree
   11. 101 Symmetric Tree
   12. 136 Single Number
+  13. 111 Minimum Depth of Binary Tree
     
   Medium:
   1. 015 3Sum  
