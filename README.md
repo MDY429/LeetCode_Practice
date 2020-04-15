@@ -17,6 +17,7 @@
   12. 136 Single Number
   13. 111 Minimum Depth of Binary Tree
   14. 110 Balanced Binary Tree
+  15. 169 Majority Element
     
   Medium:
   1. 015 3Sum  
