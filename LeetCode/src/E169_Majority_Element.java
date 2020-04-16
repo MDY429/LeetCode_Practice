@@ -37,10 +37,51 @@ public class E169_Majority_Element {
         throw new IllegalArgumentException("There is no majority element");
     }
 
+    /**
+     * Use Boyer–Moore majority vote algorithm to implement this question.
+     * 
+     * @param nums The input of array.
+     * @return The majority number.
+     */
+    public int Boyer_Moore_Vote(int[] nums) {
+
+        int candidate = 0;
+        int counter = 0;
+
+        // To find the majority number.
+        for (int num : nums) {
+            if (counter == 0) {
+                candidate = num;
+                counter++;
+            } else if (candidate == num) {
+                counter++;
+            } else {
+                counter--;
+            }
+        }
+
+        // Set counter to 0 to recount.
+        counter = 0;
+
+        // Check that how many the same values are.
+        for (int num : nums) {
+            if (num == candidate) {
+                counter++;
+            }
+        }
+
+        if (counter > nums.length / 2) {
+            return candidate;
+        }
+
+        throw new IllegalArgumentException("There is no majority element");
+    }
+
     public static void main(String[] args) {
         E169_Majority_Element e169 = new E169_Majority_Element();
         int[] nums = new int[] { 1 };
 
         System.out.println(e169.majorityElement(nums));
+        System.out.println(e169.Boyer_Moore_Vote(nums));
     }
 }

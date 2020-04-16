@@ -16,6 +16,9 @@ public class E169_Test {
         int expected = 0;
         int actual = e169.majorityElement(nums);
         assertEquals(expected, actual);
+
+        int actual2 = e169.Boyer_Moore_Vote(nums);
+        assertEquals(expected, actual2);
     }
 
     @Test
@@ -24,6 +27,9 @@ public class E169_Test {
         int expected = 0;
         int actual = e169.majorityElement(nums);
         assertEquals(expected, actual);
+
+        int actual2 = e169.Boyer_Moore_Vote(nums);
+        assertEquals(expected, actual2);
     }
 
     @Test
@@ -32,6 +38,9 @@ public class E169_Test {
         int expected = 5;
         int actual = e169.majorityElement(nums);
         assertEquals(expected, actual);
+
+        int actual2 = e169.Boyer_Moore_Vote(nums);
+        assertEquals(expected, actual2);
     }
 
     @Test
@@ -40,6 +49,10 @@ public class E169_Test {
 
         assertThrows(IllegalArgumentException.class, () -> {
             e169.majorityElement(nums);
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            e169.Boyer_Moore_Vote(nums);
         });
     }
 }
