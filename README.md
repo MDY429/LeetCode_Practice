@@ -26,6 +26,7 @@
   4. 098 Validate Binary Search Tree
   5. 094 Binary Tree Inorder Traversal
   6. 062 Unique Paths
+  7. 229 Majority Element II
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
