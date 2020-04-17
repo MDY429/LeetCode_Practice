@@ -36,16 +36,17 @@ public class M229_Majority_Element_II {
 
         // To find two majority number.
         for (int num : nums) {
-            if (counter1 == 0) {
+            // Check whether number continued.
+            if (first == num) {
+                counter1++;
+            } else if (second == num) {
+                counter2++;
+            } else if (counter1 == 0) {
                 counter1++;
                 first = num;
             } else if (counter2 == 0) {
                 counter2++;
                 second = num;
-            } else if (first == num) {
-                counter1++;
-            } else if (second == num) {
-                counter2++;
             } else {
                 counter1--;
                 counter2--;
@@ -77,7 +78,7 @@ public class M229_Majority_Element_II {
 
     public static void main(String[] args) {
         M229_Majority_Element_II m229 = new M229_Majority_Element_II();
-        int[] nums = new int[] { 3, 2, 1, 1, 3, 2, 3, 2 };
+        int[] nums = new int[] { 8,8,7,7,7 };
 
         System.out.println(m229.majorityElement(nums).toString());
     }

@@ -26,7 +26,7 @@ public class M229_Test {
     @Test
     public void M229_test2() {
         int[] nums = new int[] { 3, 2, 1, 1, 3, 2, 3, 2 };
-        List<Integer> expected = new ArrayList<>(Arrays.asList(3, 2));
+        List<Integer> expected = new ArrayList<>(Arrays.asList(2, 3));
         List<Integer> actual = m229.majorityElement(nums);
         assertEquals(expected, actual);
     }
