@@ -29,6 +29,7 @@
   6. 062 Unique Paths
   7. 229 Majority Element II
   8. 063 Unique Paths II
+  9. 096 Unique Binary Search Trees
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
