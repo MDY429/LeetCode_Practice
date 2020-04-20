@@ -19,6 +19,7 @@
   14. 110 Balanced Binary Tree
   15. 169 Majority Element
   16. 283 Move Zeroes
+  17. 189 Rotate Array
     
   Medium:
   1. 015 3Sum  
