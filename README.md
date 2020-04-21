@@ -20,6 +20,7 @@
   15. 169 Majority Element
   16. 283 Move Zeroes
   17. 189 Rotate Array
+  18. 198 House Robber
     
   Medium:
   1. 015 3Sum  
