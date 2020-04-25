@@ -21,6 +21,7 @@
   16. 283 Move Zeroes
   17. 189 Rotate Array
   18. 198 House Robber
+  19. 141 Linked List Cycle
     
   Medium:
   1. 015 3Sum  
