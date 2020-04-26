@@ -22,6 +22,7 @@
   17. 189 Rotate Array
   18. 198 House Robber
   19. 141 Linked List Cycle
+  20. 700 Search in a Binary Search Tree
     
   Medium:
   1. 015 3Sum  
