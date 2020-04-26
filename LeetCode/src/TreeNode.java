@@ -56,4 +56,30 @@ public class TreeNode {
         return root;
 
     }
+
+    /**
+     * This is for JUnit to test assert equal.
+     */
+    @Override
+    public boolean equals(Object o) {
+        TreeNode t = (TreeNode) o;
+
+        if(t == null || this == null) {
+            return false;
+        }
+        else if(this.val != t.val){
+            return false;
+        }
+        else if(this.left == null && this.right == null) {
+            return true;
+        }
+        else if(this.left == null && this.right != null) {
+            return this.right.equals(t.right);
+        }
+        else if(this.left != null && this.right == null) {
+            return this.left.equals(t.left);
+        }
+
+        return this.left.equals(t.left) && this.right.equals(t.right);
+    }
 }
