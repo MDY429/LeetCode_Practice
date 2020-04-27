@@ -23,6 +23,7 @@
   18. 198 House Robber
   19. 141 Linked List Cycle
   20. 700 Search in a Binary Search Tree
+  21. 905 Sort Array By Parity
     
   Medium:
   1. 015 3Sum  
