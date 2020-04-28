@@ -24,6 +24,7 @@
   19. 141 Linked List Cycle
   20. 700 Search in a Binary Search Tree
   21. 905 Sort Array By Parity
+  22. 977 Squares of a Sorted Array
     
   Medium:
   1. 015 3Sum  
