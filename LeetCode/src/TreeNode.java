@@ -11,6 +11,15 @@ public class TreeNode {
         val = x;
     }
 
+    // For LeetCode 108. >>
+    TreeNode() {}
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+    // <<
+
     /**
      * Just for easy create new tree.
      * 
