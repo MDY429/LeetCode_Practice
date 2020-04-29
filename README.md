@@ -25,6 +25,7 @@
   20. 700 Search in a Binary Search Tree
   21. 905 Sort Array By Parity
   22. 977 Squares of a Sorted Array
+  23. 108 Convert Sorted Array to Binary Search Tree
     
   Medium:
   1. 015 3Sum  
