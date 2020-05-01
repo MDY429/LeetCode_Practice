@@ -11,6 +11,12 @@ public class ListNode {
         val = x;
     }
 
+    // For LeetCode 148.
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+
     /**
      * This is for JUnit to test assert equal.
      */
