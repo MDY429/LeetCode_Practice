@@ -39,6 +39,7 @@
   9. 096 Unique Binary Search Trees
   10. 213 House Robber II
   11. 144 Binary Tree Preorder Traversal
+  12. 148 Sort List
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
