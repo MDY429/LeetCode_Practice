@@ -22,8 +22,14 @@
  */
 public class M148_Sort_List {
 
+    /**
+     * Use bottom-up merger sort to achieve the request constant space complexity
+     * 
+     * @param head The input of list.
+     * @return The sorted list.
+     */
     public ListNode sortList(ListNode head) {
-        
+
         if (head == null) {
             return null;
         }
@@ -36,8 +42,13 @@ public class M148_Sort_List {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
 
-        ListNode node, p, pEnd, q, qEnd;
+        ListNode node;  // Temporary ListNode to store the result.
+        ListNode p;     // Point to the left start element.
+        ListNode pEnd;  // Point to the left end element.
+        ListNode q;     // Point to the right start element.
+        ListNode qEnd;  // Point to the right end element.
 
+        // Using iteration to do the merge sort.
         for (int sz = 1; sz < len; sz = sz + sz) {
             node = dummy;
             p = dummy.next;
@@ -65,6 +76,7 @@ public class M148_Sort_List {
                     node = node.next;
                 }
 
+                // Put the left rest of elements.
                 if (p != pEnd) {
                     node.next = p;
                     while (node.next != pEnd) {
@@ -72,6 +84,7 @@ public class M148_Sort_List {
                     }
                 }
 
+                // Put the right rest of elements.
                 if (q != qEnd) {
                     node.next = q;
                     while (node.next != qEnd) {
