@@ -26,6 +26,7 @@
   21. 905 Sort Array By Parity
   22. 977 Squares of a Sorted Array
   23. 108 Convert Sorted Array to Binary Search Tree
+  24. 121 Best Time to Buy and Sell Stock
     
   Medium:
   1. 015 3Sum  
