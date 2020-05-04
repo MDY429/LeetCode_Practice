@@ -27,6 +27,7 @@
   22. 977 Squares of a Sorted Array
   23. 108 Convert Sorted Array to Binary Search Tree
   24. 121 Best Time to Buy and Sell Stock
+  25. 1160 Find Words That Can Be Formed by Characters
     
   Medium:
   1. 015 3Sum  
@@ -41,7 +42,7 @@
   10. 213 House Robber II
   11. 144 Binary Tree Preorder Traversal
   12. 148 Sort List
-  13. 1160 Find Words That Can Be Formed by Characters
+  13. 238 Product of Array Except Self
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
