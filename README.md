@@ -28,6 +28,8 @@
   23. 108 Convert Sorted Array to Binary Search Tree
   24. 121 Best Time to Buy and Sell Stock
   25. 1160 Find Words That Can Be Formed by Characters
+  26. 242 Valid Anagram
+  27. 257 Binary Tree Paths
     
   Medium:
   1. 015 3Sum  
