@@ -72,4 +72,20 @@ public class ListNode {
         return root;
     }
 
+    /**
+     * Just for testing print the node.
+     */
+    public static void printList(ListNode list) {
+        ListNode a = list;
+        while (a != null) {
+
+            if (a.next == null)
+                System.out.print(a.val + "\n");
+            else
+                System.out.print(a.val + " -> ");
+
+            a = a.next;
+        }
+    }
+
 }
