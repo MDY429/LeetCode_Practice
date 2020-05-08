@@ -30,6 +30,7 @@
   25. 1160 Find Words That Can Be Formed by Characters
   26. 242 Valid Anagram
   27. 257 Binary Tree Paths
+  28. 160 Intersection of Two Linked Lists
     
   Medium:
   1. 015 3Sum  
