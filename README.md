@@ -34,6 +34,7 @@
   29. 204 Count Primes
   30. 819 Most Common Word
   31. 217 Contains Duplicate
+  32. 226 Invert Binary Tree
     
   Medium:
   1. 015 3Sum  
