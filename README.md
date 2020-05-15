@@ -35,6 +35,7 @@
   30. 819 Most Common Word
   31. 217 Contains Duplicate
   32. 226 Invert Binary Tree
+  33. 235 Lowest Common Ancestor of a Binary Search Tree
     
   Medium:
   1. 015 3Sum  
