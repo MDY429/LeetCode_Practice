@@ -56,6 +56,8 @@
   14. 1161 Maximum Level Sum of a Binary Tree
   15. 200 Number of Islands
   16. 199 Binary Tree Right Side View
+  17. 114 Flatten Binary Tree to Linked List
+  18. 236 Lowest Common Ancestor of a Binary Tree
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
