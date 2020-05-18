@@ -44,4 +44,14 @@ public class E278_Test {
         int actual = e278.firstBadVersion(n);
         assertEquals(expected, actual);
     }
+
+    // For Test overflow reference from LeetCode.
+    @Test
+    public void E278_test5() {
+        e278 = new E278_First_Bad_Version(Integer.MAX_VALUE);
+        int n = Integer.MAX_VALUE;
+        int expected = Integer.MAX_VALUE;
+        int actual = e278.firstBadVersion(n);
+        assertEquals(expected, actual);
+    }
 }

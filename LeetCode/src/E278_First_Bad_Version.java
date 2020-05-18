@@ -42,7 +42,10 @@ public class E278_First_Bad_Version extends VersionControl{
         int r = n;
 
         while (l < r) {
-            int mid = (l + r) / 2;
+
+            // Should avoid overflow if r is the maximum value.
+            // int mid = (l + r) / 2;
+            int mid = l + (r - l) / 2;
 
             if (isBadVersion(mid)) {
                 r = mid;
