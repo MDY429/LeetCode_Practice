@@ -58,6 +58,7 @@
   16. 199 Binary Tree Right Side View
   17. 114 Flatten Binary Tree to Linked List
   18. 236 Lowest Common Ancestor of a Binary Tree
+  19. 74 Search a 2D Matrix
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
