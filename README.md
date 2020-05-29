@@ -61,6 +61,7 @@
   19. 74 Search a 2D Matrix
   20. 75 Sort Colors
   21. 79 Word Search
+  22. 78 Subsets
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
