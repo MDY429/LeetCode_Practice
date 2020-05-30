@@ -62,6 +62,7 @@
   20. 75 Sort Colors
   21. 79 Word Search
   22. 78 Subsets
+  23. 1140 Stone Game II
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
