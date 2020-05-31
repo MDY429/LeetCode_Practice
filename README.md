@@ -63,6 +63,7 @@
   21. 79 Word Search
   22. 78 Subsets
   23. 1140 Stone Game II
+  24. 102 Binary Tree Level Order Traversal
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
