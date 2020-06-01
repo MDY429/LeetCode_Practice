@@ -67,12 +67,12 @@ public class M102_Binary_Tree_Level_Order_Traversal {
     }
 
     /**
-     * Use iterator and dfs to find the each level's elements.
+     * Use iterator and bfs to find the each level's elements.
      * 
      * @param root he input of Tree Node.
      * @return Every level elements.
      */
-    public List<List<Integer>> levelOrder_dfs_iterator(TreeNode root) {
+    public List<List<Integer>> levelOrder_bfs_iterator(TreeNode root) {
 
         Queue<TreeNode> q = new LinkedList<>();
         List<List<Integer>> ans = new ArrayList<>();

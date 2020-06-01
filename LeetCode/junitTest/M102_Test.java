@@ -47,7 +47,7 @@ public class M102_Test {
         List<List<Integer>> actual = m102.levelOrder(t1);
         assertEquals(expected, actual);
 
-        List<List<Integer>> actual2 = m102.levelOrder_dfs_iterator(t1);
+        List<List<Integer>> actual2 = m102.levelOrder_bfs_iterator(t1);
         assertEquals(expected, actual2);
     }
 
@@ -63,7 +63,7 @@ public class M102_Test {
         List<List<Integer>> actual = m102.levelOrder(t2);
         assertEquals(expected, actual);
 
-        List<List<Integer>> actual2 = m102.levelOrder_dfs_iterator(t2);
+        List<List<Integer>> actual2 = m102.levelOrder_bfs_iterator(t2);
         assertEquals(expected, actual2);
     }
 
@@ -79,7 +79,7 @@ public class M102_Test {
         List<List<Integer>> actual = m102.levelOrder(t3);
         assertEquals(expected, actual);
 
-        List<List<Integer>> actual2 = m102.levelOrder_dfs_iterator(t3);
+        List<List<Integer>> actual2 = m102.levelOrder_bfs_iterator(t3);
         assertEquals(expected, actual2);
     }
 
@@ -94,7 +94,7 @@ public class M102_Test {
         List<List<Integer>> actual = m102.levelOrder(t4);
         assertEquals(expected, actual);
 
-        List<List<Integer>> actual2 = m102.levelOrder_dfs_iterator(t4);
+        List<List<Integer>> actual2 = m102.levelOrder_bfs_iterator(t4);
         assertEquals(expected, actual2);
     }
 
@@ -105,7 +105,7 @@ public class M102_Test {
         List<List<Integer>> actual = m102.levelOrder(t5);
         assertEquals(expected, actual);
 
-        List<List<Integer>> actual2 = m102.levelOrder_dfs_iterator(t5);
+        List<List<Integer>> actual2 = m102.levelOrder_bfs_iterator(t5);
         assertEquals(expected, actual2);
     }
 }
