@@ -66,6 +66,7 @@
   24. 102 Binary Tree Level Order Traversal
   25. 77 Combinations
   26. 80 Remove Duplicates from Sorted Array II
+  27. 926 Flip String to Monotone Increasing
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
