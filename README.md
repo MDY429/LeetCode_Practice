@@ -38,6 +38,7 @@
   33. 235 Lowest Common Ancestor of a Binary Search Tree
   34. 268 Missing Number
   35. 278 First Bad Version
+  36. 190 Reverse Bits
     
   Medium:
   1. 015 3Sum  
