@@ -39,6 +39,7 @@
   34. 268 Missing Number
   35. 278 First Bad Version
   36. 190 Reverse Bits
+  37. 191 Number of 1 Bits
     
   Medium:
   1. 015 3Sum  
