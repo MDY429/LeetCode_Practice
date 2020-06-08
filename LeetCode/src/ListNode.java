@@ -7,6 +7,10 @@ public class ListNode {
     int val;
     ListNode next;
 
+    // For LeetCode 203
+    ListNode() {
+    }
+
     ListNode(int x) {
         val = x;
     }
@@ -60,6 +64,11 @@ public class ListNode {
      * Just for testing. Easy build a new linked list.
      */
     public static ListNode build(int[] val) {
+
+        if (val.length == 0 || val == null) {
+            return null;
+        }
+
         ListNode root = new ListNode(val[0]);
         ListNode ln = root;
         for (int i = 1; i < val.length; i++) {
