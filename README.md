@@ -40,7 +40,8 @@
   35. 278 First Bad Version
   36. 190 Reverse Bits
   37. 191 Number of 1 Bits
-  38. 201 Bitwise AND of Numbers Range
+  38. 202 Happy Number
+  39. 203 Remove Linked List Elements
     
   Medium:
   1. 015 3Sum  
@@ -70,6 +71,7 @@
   25. 77 Combinations
   26. 80 Remove Duplicates from Sorted Array II
   27. 926 Flip String to Monotone Increasing
+  28. 201 Bitwise AND of Numbers Range
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
