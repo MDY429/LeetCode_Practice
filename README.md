@@ -42,6 +42,7 @@
   37. 191 Number of 1 Bits
   38. 202 Happy Number
   39. 203 Remove Linked List Elements
+  40. 205 Isomorphic Strings
     
   Medium:
   1. 015 3Sum  
