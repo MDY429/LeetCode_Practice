@@ -43,6 +43,7 @@
   38. 202 Happy Number
   39. 203 Remove Linked List Elements
   40. 205 Isomorphic Strings
+  41. 206 Reverse Linked List
     
   Medium:
   1. 015 3Sum  
