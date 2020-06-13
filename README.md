@@ -75,6 +75,7 @@
   26. 80 Remove Duplicates from Sorted Array II
   27. 926 Flip String to Monotone Increasing
   28. 201 Bitwise AND of Numbers Range
+  29. 289 Game of Life
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
