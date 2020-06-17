@@ -45,7 +45,8 @@
   40. 205 Isomorphic Strings
   41. 206 Reverse Linked List
   42. 234 Palindrome Linked List
-  43. 290
+  43. 290 Word Pattern
+  44. 1071 Greatest Common Divisor of Strings
     
   Medium:
   1. 015 3Sum  
