@@ -48,6 +48,7 @@
   43. 290 Word Pattern
   44. 1071 Greatest Common Divisor of Strings
   45. 392 Is Subsequence
+  46. 383 Ransom Note
     
   Medium:
   1. 015 3Sum  
