@@ -47,6 +47,7 @@
   42. 234 Palindrome Linked List
   43. 290 Word Pattern
   44. 1071 Greatest Common Divisor of Strings
+  45. 392 Is Subsequence
     
   Medium:
   1. 015 3Sum  
