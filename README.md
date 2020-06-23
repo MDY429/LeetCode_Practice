@@ -82,6 +82,7 @@
   29. 289 Game of Life
   30. 82 Remove Duplicates from Sorted List II
   31. 93 Restore IP Addresses
+  32. 86 Partition List
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
