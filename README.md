@@ -83,6 +83,7 @@
   30. 82 Remove Duplicates from Sorted List II
   31. 93 Restore IP Addresses
   32. 86 Partition List
+  33. 91 Decode Ways
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
