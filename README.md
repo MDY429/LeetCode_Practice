@@ -49,6 +49,7 @@
   44. 1071 Greatest Common Divisor of Strings
   45. 392 Is Subsequence
   46. 383 Ransom Note
+  47. 1132 Remove Palindromic Subsequences
     
   Medium:
   1. 015 3Sum  
