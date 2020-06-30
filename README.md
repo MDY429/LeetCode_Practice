@@ -50,6 +50,7 @@
   45. 392 Is Subsequence
   46. 383 Ransom Note
   47. 1132 Remove Palindromic Subsequences
+  48. 1342 Number of Steps to Reduce a Number to Zero
     
   Medium:
   1. 015 3Sum  
