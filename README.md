@@ -51,6 +51,8 @@
   46. 383 Ransom Note
   47. 1132 Remove Palindromic Subsequences
   48. 1342 Number of Steps to Reduce a Number to Zero
+  49. 575 Distribute Candies
+  50. 1346 Check If N and Its Double Exist
     
   Medium:
   1. 015 3Sum  
