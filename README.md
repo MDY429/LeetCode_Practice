@@ -89,6 +89,7 @@
   32. 86 Partition List
   33. 91 Decode Ways
   34. 116 Populating Next Right Pointers in Each Node
+  35. 576 Out of Boundary Paths
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
