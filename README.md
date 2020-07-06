@@ -90,6 +90,7 @@
   33. 91 Decode Ways
   34. 116 Populating Next Right Pointers in Each Node
   35. 576 Out of Boundary Paths
+  36. 678 Valid Parenthesis String
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
