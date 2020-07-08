@@ -53,6 +53,7 @@
   48. 1342 Number of Steps to Reduce a Number to Zero
   49. 575 Distribute Candies
   50. 1346 Check If N and Its Double Exist
+  51. 680 Valid Palindrome II
     
   Medium:
   1. 015 3Sum  
