@@ -54,6 +54,7 @@
   49. 575 Distribute Candies
   50. 1346 Check If N and Its Double Exist
   51. 680 Valid Palindrome II
+  52. 687 Longest Univalue Path
     
   Medium:
   1. 015 3Sum  
