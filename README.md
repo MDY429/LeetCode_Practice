@@ -95,6 +95,7 @@
   36. 678 Valid Parenthesis String
   37. 438 Find All Anagrams in a String
   38. 1143 Longest Common Subsequence
+  39. 1008 Construct Binary Search Tree from Preorder Traversal
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
