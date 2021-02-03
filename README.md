@@ -99,6 +99,7 @@
   39. 1008 Construct Binary Search Tree from Preorder Traversal
   40. 368 Largest Divisible Subset
   41. 129 Sum Root to Leaf Numbers
+  42. 669 Trim a Binary Search Tree
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
