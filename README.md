@@ -100,6 +100,7 @@
   40. 368 Largest Divisible Subset
   41. 129 Sum Root to Leaf Numbers
   42. 669 Trim a Binary Search Tree
+  43. 1529 Bulb Switcher IV
     
   Hard:  
   1. 124 Binary Tree Maximum Path Sum
