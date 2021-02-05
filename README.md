@@ -56,6 +56,7 @@
   51. 680 Valid Palindrome II
   52. 687 Longest Univalue Path
   53. 404 Sum of Left Leaves
+  54. 594 Longest Harmonious Subsequence
     
   Medium:
   1. 015 3Sum  
