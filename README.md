@@ -57,6 +57,7 @@
   52. 687 Longest Univalue Path
   53. 404 Sum of Left Leaves
   54. 594 Longest Harmonious Subsequence
+  55. 821 Shortest Distance to a Character
     
   Medium:
   1. 015 3Sum  
